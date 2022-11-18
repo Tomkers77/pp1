@@ -1,0 +1,8 @@
+kwota = int(input("Wpisz swoja kwote w PLN: "))
+n5 = int(kwota/5)
+n2 = int((kwota%5)/2)
+n1 = int((kwota%5)%2)
+print ("Twoja kwota w monetach: ")
+print(f"5zl: {n5}")
+print(f"2zl: {n2}")
+print(f"1zl: {n1}")
